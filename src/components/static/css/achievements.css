@@ -1,0 +1,61 @@
+.achieve {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: url('https://mediumblogs.com/wp-content/uploads/2021/08/Achievemnet_background.jpg') repeat center ;
+    padding: 50px 0px;
+    
+}
+
+
+.achievement {
+    padding: 2px;
+    border: 4px solid #5468ff;
+    border-radius: 67px;
+    border-radius: 67px;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+.achievement  .single{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.achievement:hover{
+    box-shadow: 0px 1px 1px 9px #5468ff3d , 0 6px 20px 0#5468ff3d;
+    color: white;
+    background-color: #5468ff;
+}
+
+.achievement h3{
+    font-size: 30px;
+    margin: 12px;
+    margin-top: 17px;
+    padding: 0;
+    
+}
+.achievement h4{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .achievement {
+        width: 100px;
+        height: 100px;
+    }
+    .achievement h3 {
+        font-size: 20px;
+    }
+    .achievement h4 {
+        font-size: 12px;
+    }    
+}

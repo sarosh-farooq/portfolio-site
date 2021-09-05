@@ -1,0 +1,33 @@
+
+.partner {
+    background-color: #ecf0fc;
+    padding: 40px 0px;
+}
+.partner_detail {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.partner a {
+    text-decoration: none;
+    color: #5468ff;
+    padding: 20px;
+}
+
+.partner_detail img{
+    width: 150px;
+    height: auto;
+    /* margin: 0px 20px; */
+}
+
+
+@media screen and (max-width: 900px) {
+    .portfolio .box1 .pictures {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}

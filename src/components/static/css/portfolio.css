@@ -1,0 +1,106 @@
+.portfolio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 40px 40px;
+}
+
+.portfolio .box1 .pictures {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.portfolio .box2 {
+    width: 40%;
+    padding: 20px;
+}
+
+.portfolio .box1 {
+    width: 60%;
+    padding: 20px;
+}
+
+.portfolio .box1 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio .box1 img:hover {}
+
+.portfolio .line {
+    padding: 4px;
+    width: 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: #5468ff;
+    display: inline-block;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.portfolio .dropdown {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+
+.portfolio option {
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.portfolio .dropdown .selected {
+    color: #5468ff;
+    border-left: 4px solid #5468ff;
+}
+
+.portfolio .dropdown option:hover {
+    color: #5468ff;
+    border-left: 4px solid #5468ff;
+    transition: .3s;
+}
+.portfolio p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:900px) {
+    .portfolio .box2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .portfolio .box1 {
+        width: 100%;
+    }
+    .portfolio .box1 img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio .box2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .portfolio {
+        margin: 0px 15px;
+    }
+    .portfolio h2 {
+        font-size: 34px;
+    }
+}
