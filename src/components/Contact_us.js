@@ -24,7 +24,7 @@ const Contact_us = () => {
     
         if (name && email && subject && detail) {
           const res = fetch(
-            "https://sarosh-se-default-rtdb.firebaseio.com/userDataRecords.json",
+             "put your own database URL",
             {
               method: "POST",
               headers: {
